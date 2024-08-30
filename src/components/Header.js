@@ -1,8 +1,11 @@
 import React from 'react';
 
-const Header = () => {
+const Header = ({score}) => {
   return (
-    <div>Header</div>
+    <div className='header'>
+      <h1>ROCK, PAPER, SCISSORS</h1>
+      <h1>Score: {score}</h1>
+    </div>
   )
 }
 

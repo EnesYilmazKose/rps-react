@@ -2,9 +2,7 @@ import React , { useState } from 'react';
 import { Routes , Route } from "react-router-dom";
 
 import Header from './components/Header';
-import Footer from './components/Footer';
 import Game from './components/Game';
-import Model from './components/Model';
 import Play from './components/Play';
 
 function App() {
@@ -13,7 +11,7 @@ function App() {
   const [playerScore, setPlayerScore ] = useState(0);
 
   return (
-    <div>
+    <>
       <div className='container'>
         <Header score={playerScore}/>
         <Routes>
@@ -25,8 +23,7 @@ function App() {
             }/>          
         </Routes>
       </div>
-      <Footer />
-    </div>
+    </>
   )
 }
 

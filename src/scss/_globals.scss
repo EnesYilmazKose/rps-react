@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+@import '~bootstrap/scss/bootstrap.scss';
 
 body {
         font-family: "Baskervville SC", serif;
-        color: #D2C385;
-        background: $background-gradient;
+        color: #ffc107;
+        background: #9C8CD4;
         text-align: center;
         box-sizing: border-box;
-        font-size: 4rem;
+        font-size: 2rem;
+}
+
+img {
+        width: 4rem;
+        height: 4rem;
+}
+
+button {
+        margin: 10px;
 }
